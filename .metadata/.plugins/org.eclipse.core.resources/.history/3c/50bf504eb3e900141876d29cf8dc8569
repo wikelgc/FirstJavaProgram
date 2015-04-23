@@ -1,0 +1,4 @@
+
+public class FulltimeEmp extends Employee {
+
+}
