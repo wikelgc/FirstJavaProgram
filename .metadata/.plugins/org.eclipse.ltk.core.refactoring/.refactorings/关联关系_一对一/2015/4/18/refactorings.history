@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;关联关系_一对一.Phone.aContact&apos; in &apos;关联关系_一对一.Phone&apos;&#x0D;&#x0A;- Original project: &apos;关联关系_一对一&apos;&#x0D;&#x0A;- Original element: &apos;关联关系_一对一.Phone.aContact&apos;&#x0D;&#x0A;- Getter method name: &apos;getaContact&apos;&#x0D;&#x0A;- Setter method name: &apos;setaContact&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;aContact&apos;" flags="589830" getter="getaContact" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;关联关系_一对一{Phone.java[Phone^aContact" insertion="4" setter="setaContact" stamp="1430219062912" version="1.0" visibility="1"/>
+</session>

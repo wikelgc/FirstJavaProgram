@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="用接口实现多继承.AlarmDoor"/>
 <fullyQualifiedTypeName name="用接口实现多继承.Door"/>
+<fullyQualifiedTypeName name="接口用来构建程序的架构.PrinterTnterface"/>
+<fullyQualifiedTypeName name="接口用来构建程序的架构.Office"/>
+<fullyQualifiedTypeName name="接口用来构建程序的架构.BWPrinter"/>
+<fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+<fullyQualifiedTypeName name="接口用来构建程序的架构.ColorPrinter"/>
+<fullyQualifiedTypeName name="关联关系_一对一.Contact"/>
+<fullyQualifiedTypeName name="关联关系_一对一.Phone"/>
+<fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+<fullyQualifiedTypeName name="关联关系_多对多.Contact"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="关联关系_多对多.Phone"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
