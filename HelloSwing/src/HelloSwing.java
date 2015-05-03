@@ -8,37 +8,38 @@ import javax.swing.JTextField;
 
 @SuppressWarnings("serial")
 public class HelloSwing extends JFrame{
-	//¹¹Ôì·½·¨
+	//æ„é€ æ–¹æ³•
 	public HelloSwing(){
 		
-		super("×é¼şÏÔÊ¾");
-		//³õÊ¼ºúÈİÆ÷
+		super("ç»„ä»¶æ˜¾ç¤º");
+		//åˆå§‹èƒ¡å®¹å™¨
 		Container c = this.getContentPane();
-		//ÉèÖÃÈİÆ÷ÅÅÁĞ×é¼şµÄĞÎÊ½
+		//è®¾ç½®å®¹å™¨æ’åˆ—ç»„ä»¶çš„å½¢å¼
 		c.setLayout(new FlowLayout());
 		
-		//´´½¨ÎÄ±¾¿ò,³õÊ¼»¯ÎÄ±¾¿ò
+		//åˆ›å»ºæ–‡æœ¬æ¡†,åˆå§‹åŒ–æ–‡æœ¬æ¡†
 		JTextField messageText = new JTextField(10);
-		//´´½¨±êÇ©"message"
+		//åˆ›å»ºæ ‡ç­¾"message"
 		JLabel messageLabel = new JLabel("message:");
 		
-		//´´½¨°´Å¥
+		//åˆ›å»ºæŒ‰é’®
 		JButton okBtn =new JButton("ok");
 		
-		//Ìí¼Ó±êÇ©£¬ÎÄ±¾¿òºÍ°´Å¥µ½ÈİÆ÷
+		//æ·»åŠ æ ‡ç­¾ï¼Œæ–‡æœ¬æ¡†å’ŒæŒ‰é’®åˆ°å®¹å™¨
 		c.add(messageLabel);
 		c.add(messageText);
 		c.add(okBtn);
 		
-		//¹Ø±Õ´°¿ÚÊ±½áÊø³ÌĞòÔËĞĞ
+		//å…³é—­çª—å£æ—¶ç»“æŸç¨‹åºè¿è¡Œ
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		//ÉèÖÃ´°¿ÚµÄ´óĞ¡
+		//è®¾ç½®çª—å£çš„å¤§å°
 		this.setSize(300,100);
-		//ÉèÖÃ´°¿Ú¿É¼û
+		//è®¾ç½®çª—å£å¯è§
 		this.setVisible(true);	
 	}
+	
 	public static void main(String args[]){
-		//´´½¨´°¿ÚµÄÒ»¸öÊµÀı
+		//åˆ›å»ºçª—å£çš„ä¸€ä¸ªå®ä¾‹
 		HelloSwing myapp = new HelloSwing();		
 	}
 
