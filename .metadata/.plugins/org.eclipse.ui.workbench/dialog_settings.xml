@@ -16,4 +16,18 @@
 		<item value="118" key="DIALOG_Y_ORIGIN"/>
 		<item value="610" key="DIALOG_X_ORIGIN"/>
 	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.wb.swing.JFrame" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.team.cvs.ui.newWizards"/>
+			<item value="com.skyway.integration.java.spring.ui.category"/>
+			<item value="org.skyway.designer.ui.category"/>
+			<item value="org.eclipse.pde.PDE"/>
+			<item value="org.eclipse.mylyn.ui.wizards.new"/>
+			<item value="org.eclipse.pde.userAssistance"/>
+			<item value="org.eclipse.wb"/>
+			<item value="org.eclipse.wb/org.eclipse.wb.swing"/>
+			<item value="org.eclipse.ui.Examples"/>
+		</list>
+	</section>
 </section>

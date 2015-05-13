@@ -12,17 +12,32 @@
 	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.genuitec.com</link>
 	<description>The Cloud Control Company</description>
-	<lastBuildDate>Mon, 11 May 2015 22:21:34 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 13 May 2015 11:52:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=4.2.2</generator>
 	<item>
+		<title>Genuitec.com is Having Work Done</title>
+		<link>https://www.genuitec.com/having-work-done/</link>
+		<comments>https://www.genuitec.com/having-work-done/#comments</comments>
+		<pubDate>Tue, 12 May 2015 13:58:53 +0000</pubDate>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=36978</guid>
+		<description><![CDATA[<p>Please excuse the mess! We&#8217;re working hard to upd [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/having-work-done/">Genuitec.com is Having Work Done</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		<wfw:commentRss>https://www.genuitec.com/having-work-done/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>Instant Debugging Extended in Latest GapDebug Update</title>
 		<link>https://www.genuitec.com/2015u1-3-gapdebug-instant-debugging/</link>
 		<comments>https://www.genuitec.com/2015u1-3-gapdebug-instant-debugging/#comments</comments>
 		<pubDate>Tue, 05 May 2015 17:07:04 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[GapDebug]]></category>
 		<category><![CDATA[Genuitec]]></category>
 		<category><![CDATA[Mobile]]></category>
@@ -47,7 +62,7 @@
 		<link>https://www.genuitec.com/gapdebug-twitter-chat-recap-may-5-2015/</link>
 		<comments>https://www.genuitec.com/gapdebug-twitter-chat-recap-may-5-2015/#comments</comments>
 		<pubDate>Tue, 05 May 2015 15:36:03 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[MyEclipse]]></category>
 
 		<guid isPermaLink="false">https://www.genuitec.com/?p=36881</guid>
@@ -62,7 +77,7 @@
 		<link>https://www.genuitec.com/gapdebug-twitter-chat-may-15/</link>
 		<comments>https://www.genuitec.com/gapdebug-twitter-chat-may-15/#comments</comments>
 		<pubDate>Mon, 04 May 2015 13:37:25 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[MyEclipse]]></category>
 
 		<guid isPermaLink="false">https://www.genuitec.com/?p=36624</guid>
@@ -77,7 +92,7 @@
 		<link>https://www.genuitec.com/myeclipse-twitter-chat-recap/</link>
 		<comments>https://www.genuitec.com/myeclipse-twitter-chat-recap/#comments</comments>
 		<pubDate>Tue, 21 Apr 2015 16:58:35 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[MyEclipse]]></category>
 
 		<guid isPermaLink="false">https://www.genuitec.com/?p=36300</guid>
@@ -92,7 +107,7 @@
 		<link>https://www.genuitec.com/myeclipse-twitter-chat/</link>
 		<comments>https://www.genuitec.com/myeclipse-twitter-chat/#comments</comments>
 		<pubDate>Mon, 20 Apr 2015 13:52:52 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[MyEclipse]]></category>
 
 		<guid isPermaLink="false">https://www.genuitec.com/?p=36183</guid>
@@ -107,7 +122,7 @@
 		<link>https://www.genuitec.com/team-extensions-by-webpad/</link>
 		<comments>https://www.genuitec.com/team-extensions-by-webpad/#comments</comments>
 		<pubDate>Thu, 16 Apr 2015 17:21:54 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[Genuitec]]></category>
 		<category><![CDATA[WebPad]]></category>
 		<category><![CDATA[Brackets]]></category>
@@ -127,7 +142,7 @@
 		<link>https://www.genuitec.com/jetbrains-ide-sdc-2015-sr1/</link>
 		<comments>https://www.genuitec.com/jetbrains-ide-sdc-2015-sr1/#comments</comments>
 		<pubDate>Fri, 10 Apr 2015 20:37:04 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[Genuitec]]></category>
 		<category><![CDATA[Secure Delivery Center]]></category>
 		<category><![CDATA[certified popular pack]]></category>
@@ -149,7 +164,7 @@
 		<link>https://www.genuitec.com/twitter-chat-jetbrains-ide-delivery/</link>
 		<comments>https://www.genuitec.com/twitter-chat-jetbrains-ide-delivery/#comments</comments>
 		<pubDate>Mon, 06 Apr 2015 16:43:04 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[Genuitec]]></category>
 		<category><![CDATA[Secure Delivery Center]]></category>
 		<category><![CDATA[#GenuitecChat]]></category>
@@ -173,7 +188,7 @@
 		<link>https://www.genuitec.com/ci12-myeclipse2015/</link>
 		<comments>https://www.genuitec.com/ci12-myeclipse2015/#comments</comments>
 		<pubDate>Thu, 26 Mar 2015 13:43:50 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[Genuitec]]></category>
 		<category><![CDATA[MyEclipse]]></category>
 		<category><![CDATA[Emmet]]></category>
@@ -192,7 +207,7 @@
 		<link>https://www.genuitec.com/gapdebug-twitter-chat/</link>
 		<comments>https://www.genuitec.com/gapdebug-twitter-chat/#comments</comments>
 		<pubDate>Wed, 25 Mar 2015 13:20:51 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[GapDebug]]></category>
 		<category><![CDATA[Mobile]]></category>
 
@@ -208,7 +223,7 @@
 		<link>https://www.genuitec.com/gapdebug-android-screencast/</link>
 		<comments>https://www.genuitec.com/gapdebug-android-screencast/#comments</comments>
 		<pubDate>Tue, 24 Mar 2015 17:29:38 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[GapDebug]]></category>
 		<category><![CDATA[Genuitec]]></category>
 		<category><![CDATA[Mobile]]></category>
@@ -231,7 +246,7 @@
 		<link>https://www.genuitec.com/debugging-process/</link>
 		<comments>https://www.genuitec.com/debugging-process/#comments</comments>
 		<pubDate>Mon, 02 Mar 2015 15:37:31 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[Bright Ideas]]></category>
 		<category><![CDATA[GapDebug]]></category>
 		<category><![CDATA[Java]]></category>
@@ -256,7 +271,7 @@
 		<link>https://www.genuitec.com/eclipse-442-pack/</link>
 		<comments>https://www.genuitec.com/eclipse-442-pack/#comments</comments>
 		<pubDate>Fri, 27 Feb 2015 15:39:40 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[Genuitec]]></category>
 		<category><![CDATA[Secure Delivery Center]]></category>
 		<category><![CDATA[certified popular pack]]></category>
@@ -276,7 +291,7 @@
 		<link>https://www.genuitec.com/genuitec-at-cebit/</link>
 		<comments>https://www.genuitec.com/genuitec-at-cebit/#comments</comments>
 		<pubDate>Wed, 25 Feb 2015 22:05:32 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
+		<dc:creator><![CDATA[Genuitec Administrator]]></dc:creator>
 				<category><![CDATA[Eclipse]]></category>
 		<category><![CDATA[Genuitec]]></category>
 		<category><![CDATA[MyEclipse]]></category>
@@ -292,39 +307,14 @@
 		<wfw:commentRss>https://www.genuitec.com/genuitec-at-cebit/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
-		<item>
-		<title>Crosswalk Android Debugging in Newest GapDebug</title>
-		<link>https://www.genuitec.com/android-debugging-crosswalk/</link>
-		<comments>https://www.genuitec.com/android-debugging-crosswalk/#comments</comments>
-		<pubDate>Mon, 23 Feb 2015 17:34:20 +0000</pubDate>
-		<dc:creator><![CDATA[System Administrator]]></dc:creator>
-				<category><![CDATA[GapDebug]]></category>
-		<category><![CDATA[Genuitec]]></category>
-		<category><![CDATA[Mobile]]></category>
-		<category><![CDATA[Android]]></category>
-		<category><![CDATA[Apache Cordova]]></category>
-		<category><![CDATA[chrome]]></category>
-		<category><![CDATA[Chrome Dev Tools]]></category>
-		<category><![CDATA[cordova]]></category>
-		<category><![CDATA[debug PhoneGap]]></category>
-		<category><![CDATA[gapdebug]]></category>
-		<category><![CDATA[iOS]]></category>
-		<category><![CDATA[PhoneGap]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=29315</guid>
-		<description><![CDATA[<p>If you&#8217;re building Android mobile apps with the C [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.genuitec.com/android-debugging-crosswalk/">Crosswalk Android Debugging in Newest GapDebug</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		<wfw:commentRss>https://www.genuitec.com/android-debugging-crosswalk/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
 	</channel>
 </rss>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Page Caching using disk: enhanced
-Database Caching 40/42 queries in 0.008 seconds using disk
-Object Caching 1982/2074 objects using disk
+Database Caching 39/41 queries in 0.015 seconds using disk
+Object Caching 1938/2027 objects using disk
+Content Delivery Network via resources.cloud.genuitec.com
 
- Served from: www.genuitec.com @ 2015-05-12 07:09:35 by W3 Total Cache -->
+ Served from: www.genuitec.com @ 2015-05-13 06:52:50 by W3 Total Cache -->

@@ -12,6 +12,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.GroupLayout.Alignment;
 
 //CalculateDemo
 
@@ -29,26 +30,34 @@ public class Swing extends JFrame implements ActionListener {
 		/*创建容器*/
 		Container c = this.getContentPane();
 		c.setLayout(new FlowLayout());
-		JPanel centerPanel = new JPanel(new FlowLayout());
+		JPanel centerPanel = new JPanel(new FlowLayout(0));
+		JPanel centerPane2 = new JPanel(new FlowLayout(0));
+		JPanel centerPane3 = new JPanel(new FlowLayout(0));
+		JPanel centerPane4 = new JPanel(new FlowLayout(0));
+		JPanel centerPane5 = new JPanel(new FlowLayout(0));
 		
 		//创建组件标签，文本款和按钮
-		messageText = new JTextField(5);
+		//messageText = new JTextField(0);
 		JLabel messageJLabel = new JLabel("请输入书籍名称");
-		messageText1 = new JTextField(5);
+		messageText1 = new JTextField(20);
 		JLabel messageJLabe2 = new JLabel("请输入该书籍的详细描述:");
-		messageText2 = new JTextField(5);
+		messageText2 = new JTextField(20);
 		calBtn = new JButton("OK");
 		closeBth = new JButton("Cancel");
 		//resultText = new JTextArea("计算结果:",4,20);
 		
 		//添加组件到容器
 		centerPanel.add(messageJLabel);
-		centerPanel.add(messageText1);
-		centerPanel.add(messageJLabe2);
-		centerPanel.add(messageText2);
-		centerPanel.add(calBtn);
-		centerPanel.add(closeBth);
+		centerPane2.add(messageText1);
+		centerPane3.add(messageJLabe2);
+		centerPane4.add(messageText2);
+		centerPane5.add(calBtn);
+		centerPane5.add(closeBth);
 		c.add(centerPanel);
+		c.add(centerPane2);
+		c.add(centerPane3);
+		c.add(centerPane4);
+		c.add(centerPane5);
 		//c.add(resultText);
 		
 		//注册事件到监听器
