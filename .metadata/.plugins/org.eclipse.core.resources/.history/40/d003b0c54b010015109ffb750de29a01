@@ -1,0 +1,93 @@
+package 随机文件的读写;
+
+import java.io.*;
+import java.io.ObjectInputStream.GetField;
+
+public class TestRandomIO {
+	public static void main(String args[]){
+		
+		//创建3个student实例
+		Student stu1 = new Student("何涛","20121611015");
+		Student stu2 = new Student("王吉","20121611161");
+		Student stu3 = new Student("凡可","20121611022");
+		
+		//声明RandomAccessFile类的引用变量，并初始化
+		RandomAccessFile randomW = null;
+		RandomAccessFile randomR = null;
+		
+		try{
+			
+			//创建RandomAccesFile 实例(输出流)
+			randomW = new RandomAccessFile("student.txt", "rw");
+			
+			//将stu1属性的字符串转换为字节输出
+			randomW.write(stu1.getName().getBytes());
+			randomW.write(stu1.getStudentID().getBytes());
+			
+			//将stu2属性的字符串转换为字节输出
+			randomW.write(stu2.getName().getBytes());
+			randomW.write(stu2.getStudentID().getBytes());
+			
+			randomW.write(stu3.getName().getBytes());
+			randomW.write(stu3.getStudentID().getBytes());
+			
+			randomW.close();
+			
+			
+			
+			//读文件
+			int len = 0;
+			String str = null;
+			
+			byte buf[] = new byte[15];
+			
+			//创建randomAccessFile实例(输入流)
+			randomR = new RandomAccessFile("student.txt", "r");
+			
+			
+			/* 读第一个记录
+			 * 对指示器进行定位
+			**/
+			//randomR.seek(0);
+			randomR.skipBytes(0);
+			System.out.println("指针的位置:"+randomR.getFilePointer());
+			len = randomR.read(buf);
+			str = new String (buf,0,len);
+			System.out.println("第一个记录是:"+str);
+			
+			
+			/* 读第二个记录
+			 * 跳过16个字节，将指针指向第二个记录
+			**/
+			//randomR.seek(0);
+			randomR.skipBytes(15);
+			System.out.println("指针的位置:"+randomR.getFilePointer());
+			//重文件中读到字节放到字节数组中去,并返回读到的个数
+			len = randomR.read(buf);
+			//将字节数组buf[]中的全部内容转为string类型
+			str = new String(buf,0,len);
+			System.out.println("第二个记录是:"+str);
+			
+			
+			/* 读第三个记录
+			 * 跳过16个字节，将指针指向第二个记录
+			**/
+			//randomR.seek(0);
+			randomR.skipBytes(30);
+			System.out.println("指针的位置:"+randomR.getFilePointer());
+			len = randomR.read(buf);
+			str = new String (buf ,0,len);
+			System.out.println("第三个记录是:"+str+"\n\n"+randomR.read());
+			
+			
+			randomR.close();	
+		}
+		catch (FileNotFoundException e){
+			e.printStackTrace();
+		}
+		catch (IOException e) {
+			e.printStackTrace();// TODO: handle exception
+		}
+	}
+
+}

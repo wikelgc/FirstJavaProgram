@@ -5,12 +5,16 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.JEditorPane;
+
 import java.awt.Scrollbar;
 import java.awt.TextArea;
 import java.awt.FlowLayout;
+
 import javax.swing.JButton;
+
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
@@ -19,6 +23,7 @@ public class Swing_first extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textField;
+	TextArea textArea;
 
 	/**
 	 * Launch the application.
@@ -71,7 +76,7 @@ public class Swing_first extends JFrame {
 		lblNewLabel_1.setBounds(27, 13, 166, 18);
 		panel_1.add(lblNewLabel_1);
 		
-		TextArea textArea = new TextArea();
+		textArea = new TextArea();
 		textArea.setBounds(26, 37, 438, 190);
 		panel_1.add(textArea);
 		
@@ -83,6 +88,10 @@ public class Swing_first extends JFrame {
 		JButton btnNewButton = new JButton("   Ok    ");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				String message1 = textField.getText();
+				String message2 = textArea.getText();
+				JOptionPane.showMessageDialog(null, "书籍名称:"+message1 + "\n书籍描述:" + message2, "输出 ", 1);
+
 			}
 		});
 		panel_2.add(btnNewButton);

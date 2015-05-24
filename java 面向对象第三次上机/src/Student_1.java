@@ -54,11 +54,11 @@ public class Student_1 {
 		int month = c1.get(Calendar.MONTH);
 		if(this.month>month)
 		{
-			return (year-this.year);
+			return (year-this.year-1);
 		}
 		else
 		{
-			return (year-this.year-1);
+			return (year-this.year);
 		}
 	}
 	
