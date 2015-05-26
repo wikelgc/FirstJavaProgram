@@ -6,6 +6,7 @@ import java.util.DuplicateFormatFlagsException;
 import org.omg.CosNaming.NamingContextPackage.NotFound;
 
 public class UserDA {
+	
 	static User aUser;
 	//mydataSource是数据源名
 	static String url = "jdbc:odbc:myDataSource";
@@ -21,17 +22,25 @@ public class UserDA {
 	public static Connection initialize(){
 		try{
 			//loading jdbc - odbc bridge driver --加载驱动
-			Class.forName("sun.jdbc.odbc.JdbdOdbcDerver");
+			//Class.forName("sun.jdbc.odbc.JdbcodbcDriver");
+			
 			//创建一个给定数据库的url的连接和statememt的实例
-			aConnection = DriverManager.getConnection(url);
+			//aConnection = DriverManager.getConnection(url,"","");
+			
+		
+			
+			 Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+			
+			  aConnection = DriverManager.getConnection(url,"","");
 			//创建statement的实例
 			aStatement = aConnection.createStatement();
+			
 		}
 		catch(ClassNotFoundException e){
-			System.out.print(e);
+			System.out.println(e);
 		}
 		catch (SQLException e) {
-			System.out.print(e);
+			System.out.println(e);
 			// TODO: handle exception
 		}
 		return aConnection;	
@@ -54,8 +63,8 @@ public class UserDA {
 		//retrieve User
 		aUser = null;
 		//define the SQL query statement using the phone number key
-		String sql = "select userID,name,password form userT"
-						+ "where userID = "+key ;
+		String sql = "select userID,password,name from userT"
+						+ " where userID = "+"'"+key +"'";
 		//execute the sql query statement
 		try{
 			ResultSet rs = aStatement.executeQuery(sql);
@@ -64,7 +73,6 @@ public class UserDA {
 				userID = rs.getString(1);
 				name = rs.getString(2);
 				password = rs.getString(3);
-				
 				//create user instance
 				aUser = new User(userID, name , password);
 			}
@@ -87,8 +95,8 @@ public class UserDA {
 		password = aUser.getPassword();
 		
 		//create the sql insert statement using attribute values
-		String sql = "insert into userI(userID,name,password)"
-					+"values('"+userID+"','"+name+ "','"+password+"')'";
+		String sql = "insert into userT(userID,name,password)"
+					+"values('"+userID+"','"+name+ "','"+password+"');";
 		System.out.println(sql);
 		
 		//see if this user already in ths database 
@@ -115,7 +123,7 @@ public class UserDA {
 		userID = aUser.getUserID();
 		
 		//create the sql delete statement 
-		String sql = "delete from UserT"+"where userID = "+"'" + userID + "'";
+		String sql = "delete from UserT "+" where userID = " + "'" + userID + "'";
 		
 		try{
 			int result = aStatement.executeUpdate(sql);
@@ -135,8 +143,8 @@ public class UserDA {
 		name = aUser.getName();
 		password = aUser.getPassword();
 		
-		String sql = "update userT set Name = " + "'" + name + "'"
-				+"Password     = " + "'" + password + "'"
+		String sql = "update userT set Name = " + "'" + name + "'"+","
+				+"Password = " + "'" + password + "'"
 				+"where userID = " + "'" + userID   + "'";
 		System.out.println(sql);
 		try{
