@@ -11248,3 +11248,74 @@ com.genuitec.eclipse.core.GenuitecCoreRTException: Invalid Subscription Level - 
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2015-05-27 20:53:18.022 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-05-27 20:53:30.782
+!MESSAGE Runtime component type com.genuitec.blue.websphere.portal has not been defined. It is used in plugin com.genuitec.eclipse.blue.migration.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-05-27 20:53:30.811
+!MESSAGE Runtime component type com.genuitec.blue.websphere.portal has not been defined. It is used in plugin com.genuitec.eclipse.blue.migration.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-05-27 20:53:30.812
+!MESSAGE Runtime component type com.genuitec.blue.websphere.portal has not been defined. It is used in plugin com.genuitec.eclipse.blue.migration.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-05-27 20:53:30.813
+!MESSAGE Runtime component type com.genuitec.blue.websphere.portal has not been defined. It is used in plugin com.genuitec.eclipse.blue.migration.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-05-27 20:53:30.821
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY com.genuitec.eclipse.runtime 4 0 2015-05-27 20:53:31.785
+!MESSAGE Runtime type com.genuitec.blue.websphere.portal.runtime.v61 not found. Cannot extend it to support component EJB 3.0 FixPack.
+
+!ENTRY com.genuitec.eclipse.runtime 4 0 2015-05-27 20:53:31.787
+!MESSAGE Runtime type com.genuitec.blue.websphere.portal.runtime.v61 not found. Cannot extend it to support component WebServices FixPack.
+
+!ENTRY org.eclipse.jface 2 0 2015-05-27 20:53:48.078
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-05-27 20:53:48.078
+!MESSAGE A conflict occurred for CTRL+F9:
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.activateTask,Activate Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e80f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(RunSQLAction,Run SQL,
+		Run SQL,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@114b972,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2015-05-27 20:53:53.853
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2015-05-27 20:53:53.853
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-05-27 20:54:28.164
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2: C:\Users\Administrator\.m2\repository\.cache\m2e\1.5.0\26522e0d83a422eed93329ece7565cfc\full\_20.cfs (系统找不到指定的文件。)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-27 20:54:42.067
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-27 20:54:42.068
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

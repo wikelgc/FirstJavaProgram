@@ -1,0 +1,105 @@
+package 数据访问类的实现;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Font;
+
+public class studentView extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					studentView frame = new studentView();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public studentView() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("\u4FE1\u606F\u7BA1\u7406\u7CFB\u7EDF\uFF1A");
+		lblNewLabel.setFont(new Font("宋体", Font.PLAIN, 24));
+		lblNewLabel.setBounds(14, 0, 212, 30);
+		contentPane.add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("userID");
+		lblNewLabel_1.setBounds(50, 50, 95, 20);
+		contentPane.add(lblNewLabel_1);
+		
+		textField = new JTextField();
+		textField.setBounds(160, 50, 120, 24);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblNewLabel_2 = new JLabel("userpress");
+		lblNewLabel_2.setBounds(50, 90, 95, 20);
+		contentPane.add(lblNewLabel_2);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(160, 90, 120, 24);
+		contentPane.add(textField_1);
+		textField_1.setColumns(10);
+		
+		JLabel lblNewLabel_3 = new JLabel("username");
+		lblNewLabel_3.setBounds(50, 130, 95, 20);
+		contentPane.add(lblNewLabel_3);
+		
+		textField_2 = new JTextField();
+		textField_2.setBounds(160, 130, 120, 24);
+		contentPane.add(textField_2);
+		textField_2.setColumns(10);
+		
+		JButton btnNewButton = new JButton("find");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String userID = textField_1.getText();
+				System.out.print("1");
+				
+			}
+		});
+		btnNewButton.setBounds(10, 180, 80, 30);
+		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("add");
+		btnNewButton_1.setBounds(100, 180, 80, 30);
+		contentPane.add(btnNewButton_1);
+		
+		JButton btnNewButton_2 = new JButton("delect");
+		btnNewButton_2.setBounds(190, 180, 80, 30);
+		contentPane.add(btnNewButton_2);
+		
+		JButton btnNewButton_3 = new JButton("updata");
+		btnNewButton_3.setBounds(280, 180, 80, 30);
+		contentPane.add(btnNewButton_3);
+	}
+}

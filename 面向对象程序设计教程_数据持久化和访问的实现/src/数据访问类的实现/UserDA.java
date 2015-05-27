@@ -118,9 +118,8 @@ public class UserDA {
 	
 	
 	//delete DB
-	public static void delete(User aUser){
+	public static void delete(String userID){
 		//retrieve the userID(key)
-		userID = aUser.getUserID();
 		
 		//create the sql delete statement 
 		String sql = "delete from UserT "+" where userID = " + "'" + userID + "'";

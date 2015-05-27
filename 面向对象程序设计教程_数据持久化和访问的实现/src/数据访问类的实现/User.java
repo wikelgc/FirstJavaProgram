@@ -32,7 +32,7 @@ public class User {
 	}
 	
 	public  String  getDetails(){
-		return 	getUserID()+getName()+getPassword();
+		return 	"用户ID:"+getUserID()+"用户名:"+getName()+"用户密码:*****";
 	}
 
 }

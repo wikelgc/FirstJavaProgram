@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="关联关系_多对多.Phone"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="MyArray"/>
@@ -55,9 +54,10 @@
 <fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextPackage.NotFound"/>
 <fullyQualifiedTypeName name="数据访问类的实现.DuplicateException"/>
 <fullyQualifiedTypeName name="数据访问类的实现.NotFoundException"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="随机文件的读写.Student"/>
 <fullyQualifiedTypeName name="数据访问类的实现.UserDA"/>
-<fullyQualifiedTypeName name="数据访问类的实现.User"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="数据访问类的实现.User"/>
 </qualifiedTypeNameHistroy>

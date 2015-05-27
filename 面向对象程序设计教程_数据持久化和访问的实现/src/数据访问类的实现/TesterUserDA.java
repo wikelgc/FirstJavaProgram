@@ -1,7 +1,7 @@
 package 数据访问类的实现;
 
 public class TesterUserDA {
-	public static void main(String args[]){
+	//public static void main(String args[]){
 		//生成两个user的实例
 		User firstUser  = new User("SW1234", "Liping", "123456789");
 		User secondUser = new User("SW2678", "lihong", "45678912");
@@ -48,16 +48,16 @@ public class TesterUserDA {
 //			System.out.println(e);
 //		}
 //		
-//		//测试find方法
-//		try{
-//			firstUser = UserDA.find("SW1111");
-//			System.out.println("查询"+firstUser.getDetails());
-//		}
-//		catch(NotFoundException e){
-//			System.out.println(e);
-//			
-//		}
-//		
+		//测试find方法
+		try{
+			firstUser = UserDA.find("SW1111");
+			System.out.println("查询"+firstUser.getDetails());
+		}
+		catch(NotFoundException e){
+			System.out.println(e);
+			
+		}
+		
 		//release resourse
 		UserDA.terminate();
 	}

@@ -27,6 +27,7 @@
 			<item value="org.eclipse.pde.userAssistance"/>
 			<item value="org.eclipse.wb"/>
 			<item value="org.eclipse.wb/org.eclipse.wb.swing"/>
+			<item value="org.eclipse.wb/org.eclipse.wb.rcp"/>
 			<item value="org.eclipse.ui.Examples"/>
 		</list>
 	</section>
